@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,900;1,200;1,300;1,400;1,900&display=swap');
+*
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(image/40661.jpg);
+    background-size: 100%;
+}
+
+.container{
+    margin-top: 80px;
+}
+
+.timer-output-wrapper{
+    width: calc(100% - 24px);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    height: 320px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.timer-output{
+    width: 200px;
+    background: #222;
+    color: lightgray;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    padding: 16px 8px;
+    font-size: 64px;
+    text-align: center;
+    line-height: 1;
+    user-select: none;
+    z-index: 1;
+}
+
+h1{
+    margin: auto;
+}
+.players{
+    margin: auto;
+    background-color: rgba(193, 219, 221, 0.705);
+    border: none;
+}
+
+.time{
+    margin: auto;
+    background-color: rgba(193, 219, 221, 0.705);
+    border: none;
+}
+
+.btn-info{
+    background-color: rgba(193, 219, 221, 0.705);
+    border: none;
+    color: rgb(228, 103, 30);
+    font-weight: bold;
+}
+
+.bomb-image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    z-index: 0;
+}
